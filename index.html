@@ -7,52 +7,57 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body> 
-    <form class="user_form"> 
-      <h2>  Contact Form </h2> 
-     <div class="input_group">
-        <label for="fname">Name</label> <br>
-        <input type="text" id="fname">
-    </div>
-    <div class="input_group">
-        <label for="e-mail">Email</label> <br>
-        <input type="email" id="e-mail" placeholder="jack.s@email.com">
-    </div>
-
-    <div class="input_group">
-        <label for="mobile">Phone No.</label> <br>
-    <input type="number" id="mobile"> 
-    </div>
-
-    <div class="input_group">
-        <label for="date"> Date of Birth</label> <br>
-    <input type="date" id="date">
-    </div>
-
-<div class="input_group">
-        <label for="country"> State</label> <br>
+   <form class="user_form"> 
+      <h2 class="user_form_title">  Contact Form </h2> 
+      <div class=" input_group">
+       <span class="line"> </span> <br>
+     </div>
     
-        <select > <option value="Goa"></option>
-        </select>
+      <div class="input_group">
+        <label class="label_group" for="fname">Name</label> <br>
+        <input class="input_groups" type="text" id="fname"> <br>
+    </div>
+    <div class="input_group">
+        <label class="label_group" for="e-mail">Email</label> <br>
+        <input class="input_groups" type="email" id="e-mail" placeholder="jack.s@email.com">
     </div>
 
     <div class="input_group">
-        <label for="password">pincode</label> <br>
-        <input type="password" id="password">
-
-        <div class="input_group">
-            <label for="text">Message</label> <br>
-            <textarea name="Message" id="text" placeholder="Write your message" cols="30" rows="10"></textarea>
-        </div>
-
-        <div class="input_group">
-            <label for="check"> <h4>I agree with the privacy political </h4></label> 
-            <input type="checkbox" id="check">
-        </div>
-        <button class="btn">Submit</button>
+        <label class="label_group"  for="mobile">Phone No.</label> <br>
+    <input  class="input_group_phone_info" value="+994"  type="tel">
+    <input class="input_group_phone"    type="number" id="mobile"> 
     </div>
-   
-       
-    </div> 
-    </form>
+
+    <div class="input_group">
+        <label class="label_group" for="date"> Date of Birth</label> <br>
+    <input class="input_groups" type="date" id="date"> <br>
+    </div>
+
+    <div class="input_group">
+        <label class="label_group" for="country"> State</label> <br>
+        <select class="dropdown" name="state" id="state">
+             <option value="Goa">Goe</option> 
+        </select> <br>
+    </div>
+
+     <div class="input_group">
+        <label class="label_group" for="password">pincode</label> <br>
+        <input class="input_groups" type="password" id="password"> <br>
+     </div>
+        <div class="input_group">
+            <label class="label_group" for="text">Message</label> <br>
+            <textarea class="text" name="Message" id="text" placeholder="Write your message" cols="30" rows="10"></textarea> <br>
+        </div>
+
+        <div class="input_group">
+            <input class="box" type="checkbox" id="check">
+            <label class="check" for="check"> I agree with the privacy political </label> 
+        </div>
+        
+        <div>
+        <button class="btn">Submit</button>
+        
+      </div>
+   </form>
 </body>
 </html>
